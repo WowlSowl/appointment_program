@@ -13,7 +13,7 @@ int hour{0};
 int minute{0};
 char ampm{0};
 
-for (int counter{0}; counter < 3; counter++ )
+for (int i {0}; i < 3; i++ )
 {
 cout << "New Appointment\n" << endl;
         
