@@ -69,6 +69,9 @@ switch (day)
   case 'U':
     cout << "Sunday";
     break;
+  default:
+    cout << "Something";
+    break;
 }
 
 cout << " " << std::setfill('0') << std::setw(2) << hour << ":" << std::setfill('0') << std::setw(2) 
